@@ -45,6 +45,7 @@ struct Equation
 fn main()
 {
     let mut maps = EquationMap::new();
+    
     if maps.insert("Add".to_string(), Equation{value:"x+y".to_string()})
     {
         let mut equ = String::new();
